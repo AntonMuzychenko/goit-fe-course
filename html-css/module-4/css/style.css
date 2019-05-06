@@ -5,17 +5,33 @@ body{
     width: 1600px;
 
 }
-header, main, footer{
+
+.container {
+    display: block;
+    margin: 0 auto;
+    width: 1140px;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+
+}
+
+/* header, main, footer{
     width: 1140px;
     margin: auto;
-}
+} */
 /*---heading style---*/
+
 header{
     height: 100px;
 }
 .main-page-header > nav{
     float: right;
 }
+
 .main-page-header > a{
     float: left;
     font-size: 30px;
@@ -102,26 +118,36 @@ main h2::after{
 .main-page-product-block .product-cost:hover{
     background-color: #7fd9c7;
 }
-.main-page-article p{
-    width: 260px;
-    height: 350px;
-    font-family: "Regular";
-    font-size: 18px;
-    font-weight: bold;
-    box-sizing: border-box;
-    padding: 15px;
+.News{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.news-item{
+    width: 366px;
+    display: block;
     float: left;
+}
+.Button-More{
+    width: 160px;
+   font-size: 16px;
+    background-color: #1abc9c;
     display: block;
+    text-align: center;
+    padding: 22px 0;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    border-radius: 4px;
 }
-.main-page-article div{
-    font-size: 14px;
-    font-weight: 300;
-    font-family: "Open Size";
-    box-sizing: border-box;
-    display: block;
-    padding: 30
+h3::after {
+    content:'';
+    display:block;
+    width: 135px;
+    height: 5px;
+    background: #1abc9c;
+    margin: 0px;
+    padding: 1px;
+    margin-top: 8px;
 }
-.main-page2-footer{
-padding: 40px;
-
-}
+/** Main style end**/
