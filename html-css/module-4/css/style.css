@@ -1,0 +1,127 @@
+*, ::before,::after{
+    box-sizing: border-box;
+}
+body{
+    width: 1600px;
+
+}
+header, main, footer{
+    width: 1140px;
+    margin: auto;
+}
+/*---heading style---*/
+header{
+    height: 100px;
+}
+.main-page-header > nav{
+    float: right;
+}
+.main-page-header > a{
+    float: left;
+    font-size: 30px;
+    font-family: "Roboto";
+    color:black;
+    text-decoration: none;
+}
+.main-page-header > a > span{
+    color: #1abc9c;
+    font-weight: 700;
+    padding-top: 38px;
+}
+.main-page-header ul li{
+    display: inline;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: "Open Sans";
+    color:black;
+    font-weight: bold;
+}
+ .main-page-header ul li.active{
+    color: #1abc9c
+} 
+
+/** End header style**/
+/** Main style **/
+main h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 48px;
+    color: black;
+    padding-top: 63px;
+    font-family: Roboto;
+    font-weight: bold;
+}
+main h2::after{
+    content: '';
+    display: block;
+    width: 164px;
+    height: 7px;
+    background: #1abc9c;
+    margin: 0 auto;
+    margin-top: 32px;
+}
+.main-page-product-block{
+    width: 285px;
+    height: 350px;
+    padding: 15px;
+    float: left;
+    box-sizing: border-box;
+}
+.main-page-product-block img {
+    width: 255px;
+    height: 280px;
+}
+.main-page-product-block .product-name{
+  width: 200px;
+  height: 40px;
+  background-color: #323232;
+  color: white;
+  font-family: "Roboto";
+  font-size: 14px;
+  margin-top: -3px;
+  margin-left: 1px;
+  font-weight: bold;
+  padding: 10px;
+  float: left;
+}
+.main-page-product-block .product-cost{
+    width: 57px;
+    height: 40px;
+    background-color: #8c8c8c;
+    color: white;
+    font-family: "Roboto";
+    font-weight: bold;
+    float: left;
+    margin: -3px;
+    padding: 10px;
+    text-align: center;
+}
+.main-page-product-block .product-name:hover{
+    background-color: #1abc9c;
+}
+.main-page-product-block .product-cost:hover{
+    background-color: #7fd9c7;
+}
+.main-page-article p{
+    width: 260px;
+    height: 350px;
+    font-family: "Regular";
+    font-size: 18px;
+    font-weight: bold;
+    box-sizing: border-box;
+    padding: 15px;
+    float: left;
+    display: block;
+}
+.main-page-article div{
+    font-size: 14px;
+    font-weight: 300;
+    font-family: "Open Size";
+    box-sizing: border-box;
+    display: block;
+    padding: 30
+}
+.main-page2-footer{
+padding: 40px;
+
+}
