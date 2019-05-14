@@ -1,0 +1,27 @@
+/* specification    */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    margin: 0;
+}
+
+.container{
+ width: 1200px;
+ margin: 0 auto;
+}
+
+/* header */
